@@ -1,6 +1,6 @@
 ## Developer Skills Activity
 
-This repository contains a new responsive promo widget, shown at two different sizes. Fork the repo and create the HTML, CSS, and JavaScript for the widget as illustrated in the [Widget Image](https://github.com/ff0000/skills-assessment/blob/master/contactListUpdated.jpg). We should be able to clone the repo and load an `index.html` in the browser to interact with the widget.
+This repository contains a new responsive promo widget, shown at two different sizes. Fork the repo and create the HTML, CSS, and JavaScript for the widget as illustrated in the [Widget Image](https://github.com/rocket-media/dev-skills-activity/blob/master/widget.jpg). We should be able to clone the repo and load an `index.html` in the browser to interact with the widget.
 
 See how far you can make it in *2 hours*, but you don't need to spend any more than 2 hours on your solution. You will be asked to explain your code.  Please target modern(ish) browsers (FF/Chrome/Safari/IE9+), but the widget will need to function in IE8. Include graceful degredation and/or fallbacks when necessary.
 
