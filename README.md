@@ -2,7 +2,7 @@
 
 This repository contains a new responsive promo widget, shown at two different sizes. Fork the repo and create the HTML, CSS, and JavaScript for the widget as illustrated in the [Widget Image](https://github.com/rocket-media/dev-skills-activity/blob/master/widget.jpg). We should be able to clone the repo and load an `index.html` in the browser to interact with the widget.
 
-See how far you can make it in *2 hours*, but you don't need to spend any more than 2 hours on your solution. You will be asked to explain your code.  Please target modern(ish) browsers (FF/Chrome/Safari/IE9+), but the widget will need to function in IE8. Include graceful degredation and/or fallbacks when necessary.
+See how far you can take it in 2 to 3 hours. You will be asked to explain your code.  Please target modern(ish) browsers (FF/Chrome/Safari/IE9+), but the widget will need to function in IE8. Include graceful degredation and/or fallbacks when necessary.
 
 Please code the page according to industry best practices and organize the assets as you would if handing off to a co-worker to integrate (not necessarily to deploy).
 
