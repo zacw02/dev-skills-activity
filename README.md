@@ -28,9 +28,11 @@ Your task is to create a one-page website powered by Craft CMS featuring a singl
 1. Fork this repository and clone to your computer.
 2. Within the project, rename `.env.example` to `.env`
 3. Run `composer install`
-4. Run `docker-compose up -d` to start the Docker container
+4. Run `docker-compose up -d` to start the Docker container*. Count to twenty in your favorite foreign language to give the MySQL container time to boot.
 5. In your browser, open `http://dev-activity.127.0.0.1.nip.io:8080/admin/install` and follow the prompts to install Craft CMS.
 6. When Craft installation is complete, open `http://dev-activity.127.0.0.1.nip.io:8080/` to view your website locally.
+
+\* _In order to make it easy for you to get a local PHP development server running, this project includes a Docker container. However, if you've ever used Docker, you know that sometimes it creates more problems than it solves. If you cannot get Docker working, feel free to use MAMP or any other local web server that works for you. Just be sure to include an export of your database as mentioned in step 1 of the submission instructions._
 
 # Submission
 When you're ready to submit your project:
