@@ -1,26 +1,23 @@
 # Rocket Media Developer Activity
 
+Your task is to create a one-page website powered by Craft CMS featuring a single, responsive component.
 
-
-Your task is to create a one-page, one-component website powered by Craft CMS.
-
-- Create a new Craft project and code the following component.
+- Create a page containing the component shown in `dev-activity.png`
 - Integrate it with the CMS so that all the component content can be edited in Craft 
-- For the frontend, use the Tailwind CSS utility library. You may also write custom CSS if necessary, but try to use Tailwind as much as possible.
+- For the frontend, use the [Tailwind CSS](https://tailwindcss.com/) utility library. You may also write custom CSS if necessary, but try to use Tailwind as much as possible.
 - Use images from https://picsum.photos.
-- For extra credit, modify your project to allow for collapsible content. Don’t feel pressured to do this.
+- For extra credit, modify your component to allow for collapsible content on small screens. Don’t feel pressured to do this.
 - Target IE11, Edge, Firefox, Chrome, Safari, latest iOS and Android.
-- `docker exec dev-activity_db mysqldump craftcms > db.sql`
-- Push your project to github and email the link to x@rocketmedia.com.
-- Email garrett@rocketmedia.com with questions.
+- Feel free to email Garrett with questions.
 
-What I’m looking for:
+## What I’m looking for:
 
-Sensible document structure and semantic HTML tags.
-Construction that can handle different amounts of content.
-Flexible and intuitive editing options in Craft CMS.
-When it comes to margin/padding, I’m not looking for pixel-perfection. Use Tailwind’s default spacing values to approximate.
-If you do the extra credit. Accessible: keyboard navigable and screen reader friendly. You can do it with vanilla JS, or jQuery.
+- Sensible document structure and semantic HTML tags.
+- Construction that can handle different amounts of content.
+- Intuitive field setup within Craft CMS.
+- Not-too-permissive field setting within Craft; don't let your CMS users add content that will break the site!
+- When it comes to margin/padding, I’m not looking for pixel-perfection. Use Tailwind’s default spacing values to approximate.
+- If you do the extra credit, I'm looking for accessibility: keyboard navigable and screen reader friendly. You can do it with vanilla JS, or jQuery.
 
 # Prerequisites
 - Install Docker Desktop (https://www.docker.com/products/docker-desktop)
@@ -37,6 +34,6 @@ If you do the extra credit. Accessible: keyboard navigable and screen reader fri
 
 # Submission
 When you're ready to submit your project:
-1. From the root of your project, run `docker exec dev-activity_db mysqldump craftcms > db.sql`. This will export your Craft database to a file that I can import on my local machine to evaluate your work. If you make any additional changes to Craft, you'll need to re-run the command the dump the latest version of the database.
-2. Commit all changes and push to Github.
-3. Email garrett at rocketmedia dot com letting me know.
+1. On the command line, in the root of your project, run `docker exec dev-activity_db mysqldump craftcms > db.sql`.
+2. Commit all of your work and push to Github.
+3. Notify me (Garrett) via email that you're ready for me to review your work.
