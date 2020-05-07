@@ -1,0 +1,27 @@
+{
+  "name": "dev-skills-activity",
+  "version": "1.0.0",
+  "description": "Your task is to create a one-page website powered by Craft CMS featuring a single, responsive component.",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss": "^7.0.29",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "postcss CSS/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocket-media/dev-skills-activity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rocket-media/dev-skills-activity/issues"
+  },
+  "homepage": "https://github.com/rocket-media/dev-skills-activity#readme"
+}
